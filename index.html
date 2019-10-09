@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="picture">
+<head>
+<title>Umrechner</title>
+<script src= "test.js"> </script>
+<link rel="stylesheet" href="designe.css">
+</head>
+<body>
+    <div class="position">
+        <h2> Währungsrechner</h2>
+        <p> Dieser Rechner kann in USD, JPY, CHF und RUB umrechnen.</p>
+        <label>Betrag in EUR:</label><br>
+        <input type="text" placeholder="EUR" id="text1"><br>
+        <select id="choice">
+            <option value="USD">USD</option>
+            <option value="JPY">JPY</option>
+            <option value="CHF">CHF</option>
+            <option value="RUB">RUB</option>
+        </select><br>
+        <label >Ergebnis:</label><br>
+        <input type="text" id="result"><br>
+        <button class="btn" onclick="myFunktion()">berechnen</button><br>
+    </div>
+    <div id="rechnungstabelle"></div>
+</body>
+</html>    

@@ -1,0 +1,44 @@
+#rechnungstabelle {
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    background: #aFEEEE;
+    margin-bottom: 40px;
+    
+}
+
+
+.btn {
+	margin-top: 100px;
+	font-size: 10px;
+	cursor: pointer;
+	font-weight: 400;
+	margin-top: 10px;
+	padding: 5px 15px;
+	border-color: black;
+}
+
+.position {
+    text-align: center;
+    border: 5px solid green;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    background: #aFEEEE;
+}
+    
+.picture{
+background: url(picture.jpg);
+    
+}
+
+.rechner2 {
+    text-align: center;
+    border: 5px solid green;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 15px;
+    background: #aFEEEE;
+    
+}
